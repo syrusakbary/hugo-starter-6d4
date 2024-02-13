@@ -1,0 +1,12 @@
+[package]
+name = "syrusakbary/hugo-starter-6d4"
+version = "0.2.1"
+description = "Wasmer Hugo starter package"
+readme = "README.md"
+repository = "https://github.com/syrusakbary/hugo-starter-6d4"
+
+[dependencies]
+"wasmer/static-web-server" = "^1"
+
+[fs]
+public = "public"
